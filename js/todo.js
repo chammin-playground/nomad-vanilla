@@ -57,5 +57,3 @@ if (savedTodos) {
   todos = parsedTodos;
   parsedTodos.forEach(paintTodo);
 }
-
-paintTodo({ text: "a", id });
